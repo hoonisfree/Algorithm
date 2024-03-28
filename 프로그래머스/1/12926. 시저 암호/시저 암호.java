@@ -3,7 +3,7 @@ class Solution {
         String answer = "";
         for (char c : s.toCharArray()) {
             if (c >= 'A' && c <= 'Z') { 
-                if (c + n > 'Z') {
+               if (c + n > 'Z') {
                     char cc = (char)(c + n - 'Z' + 'A' - 1);
                     answer += cc;
                 } else {
